@@ -5,7 +5,6 @@ import { BGEffect } from "./component/bgEffect"
 import { Invitation } from "./component/invitation"
 import { Calendar } from "./component/calendar"
 import { Gallery } from "./component/gallery"
-import { Information } from "./component/information"
 import { GuestBook } from "./component/guestbook"
 import { LazyDiv } from "./component/lazyDiv"
 import { ShareButton } from "./component/shareButton"
@@ -39,20 +38,13 @@ function App() {
           <Gallery />
         </LazyDiv>
 
-        <LazyDiv className="card-group">
-          {/* 오시는 길 및 지도 섹션 */}
-          <Location />
-        </LazyDiv>
 
         <LazyDiv className="card-group">
-          {/* 축의금 및 연락처 정보 섹션 */}
-          <Information />
           {/* 방명록 섹션 (정적 모드가 아닐 때만 표시) */}
           {!STATIC_ONLY && <GuestBook />}
         </LazyDiv>
 
-        {/* 카카오톡/링크 공유 버튼 */}
-        <ShareButton />
+      
       </div>
     </div>
   )

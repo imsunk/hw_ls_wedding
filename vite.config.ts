@@ -9,7 +9,6 @@ import {
   GROOM_FULLNAME,
   BRIDE_FULLNAME,
   WEDDING_DATE,
-  LOCATION,
   WEDDING_DATE_FORMAT,
 } from "./src/const"
 
@@ -34,7 +33,7 @@ export default defineConfig({
         data: {
           GROOM_FULLNAME,
           BRIDE_FULLNAME,
-          DESCRIPTION: `${WEDDING_DATE.format(WEDDING_DATE_FORMAT)} ${LOCATION}`,
+          DESCRIPTION: `${WEDDING_DATE.format(WEDDING_DATE_FORMAT)}`,
         },
       },
     }),
