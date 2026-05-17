@@ -28,7 +28,7 @@ export const Invitation = () => {
   return (
     <>
       <LazyDiv className="card invitation">
-        <h2 className="english">Invitation</h2>
+        {/* <h2 className="english">Invitation</h2> */}
 
         <div className="break" />
 

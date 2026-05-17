@@ -86,7 +86,7 @@ export const BRIDE_INFO = [
   {
     relation: "신부",
     name: BRIDE_FULLNAME,
-    phone: "010-0000-0000",
+    phone: "010-4366-3151",
   },
 ]
 
@@ -104,6 +104,6 @@ export const GROOM_INFO = [
   {
     relation: "신랑",
     name: GROOM_FULLNAME,
-    phone: "010-0000-0000",
+    phone: "010-4221-0173",
   },
 ]
